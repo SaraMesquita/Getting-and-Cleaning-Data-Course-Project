@@ -18,11 +18,11 @@ Information about the variables, data and the transformations made during the "c
 
 - TrainingSet, TrainingLabels, TestSet, Testlabels, SubjectTrain and SubjectTest contain the data from the downloaded files;
 
-- AllFeatures contains the correct names for the x_data dataset, which are applied to the column names stored in mean_and_std_features, a numeric vector used to extract the desired data;
+- AllFeatures: contains the correct names for the x_data dataset, which are applied to the column names stored in mean_and_std_features, a numeric vector used to extract the desired data;
 
-- activityLabels 
+- activityLabels: joins class labels with their activity name;
 
-- MergeAllSets merges x_data, y_data and subject_data in a big dataset;
+- MergeAllSets: merges all sets in a big dataset;
 
 - MeanAndStdSet avera contains the relevant averages which will be later stored in a .txt file. 
 
