@@ -12,7 +12,19 @@ Information about the variables, data and the transformations made during the "c
 
 4) ID's of subjects in the training data:'train/subject_train.txt':
 
-5) Same of 3) and 4) for the testing data.
+5) Same as 3) and 4) for the testing data.
+
+#Variables:
+
+- TrainingSet, TrainingLabels, TestSet, Testlabels, SubjectTrain and SubjectTest contain the data from the downloaded files;
+
+- AllFeatures contains the correct names for the x_data dataset, which are applied to the column names stored in mean_and_std_features, a numeric vector used to extract the desired data;
+
+- activityLabels 
+
+- MergeAllSets merges x_data, y_data and subject_data in a big dataset;
+
+- MeanAndStdSet avera contains the relevant averages which will be later stored in a .txt file. 
 
 
 
