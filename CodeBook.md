@@ -1,4 +1,4 @@
-# the Script
+# The Script
 
 The R script used to create the tidy data file, run_analysis.R, does the following:
 
